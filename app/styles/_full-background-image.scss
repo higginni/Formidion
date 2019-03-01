@@ -1,0 +1,30 @@
+section.hero-image {
+  background: url("../images/MOW_Kitchen.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h1 {
+    &.hero-title {
+      color: red;
+      text-align: center;
+    }
+  }
+  p {
+    color: red;
+  }
+}
+
+section.individual-full-bg-image {
+  background: url("../images/March_for_Meals_Tenderloin.jpg") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}

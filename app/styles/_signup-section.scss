@@ -1,0 +1,48 @@
+section {
+  &.signup-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $grey-background;
+    padding: 50px;
+
+    h4 {
+      justify-content: space-around;
+      align-items: center;
+      color: $black;
+      font-size: 2em;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    p {
+      justify-content: space-around;
+      align-items: center;
+      color: $grey-font;
+      padding-bottom: 20px;
+      font-size: 18px;
+    }
+    iframe {
+      justify-content: space-around;
+      align-items: center;
+    }
+    .input-group {
+      input {
+        &.form-control {
+          padding: 30px;
+          border-bottom-left-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+      }
+
+      width: 90%;
+
+      .input-group-btn {
+        .btn-success {
+          padding: 24px 25px 16px 25px;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+    }
+  }
+}
