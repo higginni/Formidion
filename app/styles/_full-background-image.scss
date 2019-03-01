@@ -1,6 +1,8 @@
 section.hero-image {
   border-top: 10px solid $green;
-  background: url("../images/MOW_Kitchen.jpg") no-repeat center center;
+  background: url("https://placeimg.com/640/480/animals") no-repeat center
+    center;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +16,7 @@ section.hero-image {
     &.hero-title {
       color: $white;
       text-align: left;
-      font-size: 45px;
+      font-size: 55px;
       padding-bottom: 30px;
       span {
         color: $green;
@@ -27,7 +29,6 @@ section.hero-image {
     line-height: 28px;
   }
   .social-icons {
-    // display: flex;
     i {
       margin: 10px;
       font-size: 16px;
@@ -37,6 +38,7 @@ section.hero-image {
       background-color: $shadow;
       &:hover {
         background-color: $green;
+        cursor: pointer;
       }
     }
   }

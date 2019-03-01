@@ -20,10 +20,17 @@ section {
       color: $grey-font;
       padding-bottom: 20px;
       font-size: 18px;
+      line-height: 32px;
     }
     iframe {
       justify-content: space-around;
       align-items: center;
+      @include breakpoint(sm) {
+        padding-top: 40px;
+      }
+      @include breakpoint(xxs) {
+        padding-top: 40px;
+      }
     }
     .input-group {
       input {
@@ -33,8 +40,10 @@ section {
           border-top-left-radius: 10px;
         }
       }
-
       width: 90%;
+      @include breakpoint(xxs) {
+        width: 100%;
+      }
 
       .input-group-btn {
         .btn-success {

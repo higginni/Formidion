@@ -1,4 +1,4 @@
-$icon-font-path: "../fonts/";
+// $icon-font-path: "../fonts/";
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -9,3 +9,7 @@ $icon-font-path: "../fonts/";
 @import "_testimonials-section.scss";
 @import "_contact-section.scss";
 @import "_footer-section.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
