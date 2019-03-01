@@ -6,6 +6,19 @@ section.testimonials {
       &.carousel-indicators {
         bottom: -150px;
 
+        @include breakpoint(md) {
+          bottom: -180px;
+        }
+        @include breakpoint(sm) {
+          bottom: -60px;
+        }
+        @include breakpoint(xs) {
+          bottom: -60px;
+        }
+        @include breakpoint(xxs) {
+          bottom: -60px;
+        }
+
         li {
           border: 1px solid transparent;
           &#indicator-1 {
