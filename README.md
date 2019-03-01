@@ -7,7 +7,7 @@ Build of a front end marketing capaign.
 
 A step by step series of examples that tell you have to get a development env running
 
-- git clone git@github.com:comediadesign/meals-on-wheels
+- clone repo
 - npm install
 - bower install
 
