@@ -20,12 +20,53 @@ section.service-offering {
       text-align: center;
     }
     p {
+      height: 60px;
       width: 90%;
       margin-left: 5%;
       font-size: 14px;
-      text-align: center;
+      text-align: left;
       color: $grey-font;
       line-height: 28px;
+      @include breakpoint(sm) {
+        height: 40px;
+      }
+      @include breakpoint(xs) {
+        height: 40px;
+      }
+      @include breakpoint(xxs) {
+        height: 40px;
+      }
+    }
+    ul {
+      text-align: left;
+      list-style-type: none;
+      @include breakpoint(md) {
+        list-style-type: none;
+      }
+      @include breakpoint(sm) {
+        list-style-type: none;
+      }
+      @include breakpoint(xs) {
+        list-style-type: none;
+      }
+      @include breakpoint(xxs) {
+        list-style-type: none;
+      }
+      li {
+        color: $grey-font;
+        @include breakpoint(md) {
+          text-align: left;
+        }
+        @include breakpoint(sm) {
+          text-align: left;
+        }
+        @include breakpoint(xs) {
+          text-align: left;
+        }
+        @include breakpoint(xxs) {
+          text-align: left;
+        }
+      }
     }
   }
 }
