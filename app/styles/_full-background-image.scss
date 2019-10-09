@@ -28,16 +28,18 @@ section.hero-image {
     line-height: 28px;
   }
   .social-icons {
-    i {
+    padding-top: 20px;
+    a {
       margin: 10px;
       font-size: 16px;
       color: $white;
-      padding: 15px;
-      border-radius: 50px;
+      padding: 10px 20px;
+      border-radius: 10px;
       background-color: $shadow;
       &:hover {
         background-color: $green;
         cursor: pointer;
+        text-decoration: none;
       }
     }
   }

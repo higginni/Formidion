@@ -1,4 +1,12 @@
 .navbar {
   margin-bottom: 0;
   border-bottom: 10px solid $blue;
+  a {
+    &.navbar-brand {
+      img {
+        width: 100px;
+        margin-top: -15px;
+      }
+    }
+  }
 }
