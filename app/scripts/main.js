@@ -1,16 +1,16 @@
 (function($) {
   $(document).ready(function() {
     // hide .navbar first
-    $(".navbar").hide();
+    $('.navbar').hide();
 
     // fade in .navbar
     $(function() {
       $(window).scroll(function() {
         // set distance user needs to scroll before we fadeIn navbar
         if ($(this).scrollTop() > 100) {
-          $(".navbar").fadeIn();
+          $('.navbar').fadeIn();
         } else {
-          $(".navbar").fadeOut();
+          $('.navbar').fadeOut();
         }
       });
     });
@@ -18,11 +18,11 @@
 })(jQuery);
 
 // SLow Scroll to event
-$('a[href^="#"]').on("click", function(event) {
-  var target = $(this.getAttribute("href"));
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
   if (target.length) {
     event.preventDefault();
-    $("html, body")
+    $('html, body')
       .stop()
       .animate(
         {
