@@ -10,13 +10,16 @@ footer.footer {
         list-style-type: none;
       }
       li {
-        display: inline;
+        display: inline-block;
         margin: 0 15px;
         @include breakpoint(xxs) {
           display: block;
         }
         a {
           color: $grey-font;
+        }
+        &:hover {
+          cursor: pointer;
         }
       }
     }
