@@ -79,7 +79,10 @@ section {
         color: $black;
         padding-bottom: 20px;
         font-size: 18px;
-        line-height: 32px;
+
+        // Line gap problem
+        // line-height: 32px;
+        line-height: 24px;
       }
     }
 
