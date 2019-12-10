@@ -12,4 +12,23 @@
       }
     }
   }
+  ul {
+    .social-icons {
+      // padding-top: 20px;
+      a {
+        margin: 5px 10px;
+        font-size: 16px;
+        color: $white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: $green;
+        &:hover {
+          border: 1px solid $green;
+          color: #777;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
