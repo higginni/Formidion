@@ -4,11 +4,12 @@ section.our-vision {
     font-size: 29px;
     padding-bottom: 40px;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
   }
   .col-md-6 {
     background-color: white;
     text-align: center;
+    display: flex;
     .vision-item {
       i {
         font-size: 40px;
@@ -24,8 +25,11 @@ section.our-vision {
         }
       }
       p {
+        align-items: center;
+        height: 100px;
         line-height: 28px;
+        text-align: left;
       }
     }
   }
-} 
+}
