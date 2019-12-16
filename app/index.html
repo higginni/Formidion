@@ -26,6 +26,7 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <base href="/" />
   </head>
   <body>
     <!--[if IE]>
@@ -314,6 +315,16 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript">
+      function init() {
+      Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1vYhmR2sjJyOXiJnZYZ9U6st3go0CxiWDUhHTjNFWtRU/edit?folder=0AJQQVgISgSSQUk9PVA#gid=0',
+      callback: function(data, tabletop) {
+      console.log(data)
+      },
+      simpleSheet: true } )
+      }
+      window.addEventListener(‘DOMContentLoaded’, init)
+    </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
