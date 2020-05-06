@@ -18,10 +18,17 @@ section.hero-image {
       color: $white;
       text-align: left;
       font-size: 55px;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       span {
         color: $green;
       }
+    }
+  }
+  h4 {
+    &.hero-subtitle {
+      color: $white;
+      font-size: 34px;
+      font-weight: 100;
     }
   }
   p {
