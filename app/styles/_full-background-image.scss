@@ -1,6 +1,6 @@
 section {
   &.hero-image {
-    border-top: 10px solid $blue;
+    border-top: 10px solid $red;
     background: url("../images/mbgt-logo.jpeg") no-repeat center 45%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,7 @@ section {
       font-size: 80px;
       padding-bottom: 10px;
       span {
-        color: $green;
+        color: $yellow;
       }
     }
   }
