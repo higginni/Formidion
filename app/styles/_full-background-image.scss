@@ -16,11 +16,15 @@ section {
       background-size: cover;
     }
   }
+  .col-md-8 {
+    padding-left: 0;
+  }
   h1 {
+    margin-left: -20px;
     &.hero-title {
       color: $white;
       text-align: left;
-      font-size: 80px;
+      font-size: 70px;
       padding-bottom: 10px;
       span {
         color: $yellow;
@@ -28,6 +32,7 @@ section {
     }
   }
   h4 {
+    margin-left: -20px;
     &.hero-subtitle {
       text-align: left;
       color: $white;
