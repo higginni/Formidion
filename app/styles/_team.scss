@@ -1,0 +1,27 @@
+#team {
+    &.our-vision {
+        h2 {
+            text-align: left !important;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        img {
+            border-radius: 10%;
+            width: 65%;
+            object-fit: contain;
+            display: flex;
+
+            &.michael {
+                margin-left: auto;
+            }
+        }
+
+        p {
+            color: #ddd;
+        }
+    }
+}

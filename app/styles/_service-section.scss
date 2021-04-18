@@ -1,27 +1,63 @@
 section {
   &.service {
-    height: 80vh;
-    margin: 10px;
+    // height: 45vh;
     padding: 20px;
     display: flex;
-    align-items: center;
+    background-color: #eee;
     .row {
-      .col-md-5 {       
+      display: flex;
+      align-items: center;
+      padding: 30px;
+
+      .col-md-5 {
         img {
           width: 100%;
           border-radius: 10px;
         }
+
         &.service-container {
           border: 1px solid #ddd;
-          box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+          box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
           padding: 10px;
+          background-color: #fefefe;
+
           .service-copy-header {
             padding: 10px 0;
             font-size: 24px;
             line-height: 30px;
           }
+
           .service-copy-body {
             padding: 5px 0;
+          }
+        }
+      }
+
+      .col-md-6 {
+        .carousel {
+          height: 50px;
+
+          .item {
+            font-style: italic;
+            text-align: right;
+            font-size: 22px;
+          }
+
+        }
+      }
+
+      .sub-contact {
+        padding: 30px;
+        text-align: center;
+
+        h4 {
+          color: red;
+          font-weight: bold;
+
+          a {
+            font-weight: normal;
+            color: black;
+
           }
         }
       }

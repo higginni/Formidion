@@ -7,9 +7,14 @@
 @import "_full-background-image.scss";
 @import "_service-section.scss";
 @import "_footer-section.scss";
+@import "_team.scss";
+@import "_partners.scss";
 @import "_contact.scss";
 
 
 body {
   font-family: "Roboto", sans-serif;
+}
+h2 {
+  text-align: center !important;
 }

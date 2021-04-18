@@ -1,10 +1,7 @@
 section {
   &.hero-image {
     border-top: 10px solid $red;
-    background: url("../images/mbgt-logo.jpeg") no-repeat center 45%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
     background-size: 100%;
     background-attachment: fixed;
     height: 100vh;
@@ -12,27 +9,68 @@ section {
     justify-content: space-around;
     align-items: center;
     box-shadow: inset 0 0 0 999em $shadow;
+
+    .carousel {
+      width: 100%;
+
+      .carousel-inner {
+        .item {
+          box-shadow: 5px 5px grey, 10px 10px 8px red, 15px 15px 8px green;
+
+          img {
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            background-size: cover;
+            background-attachment: fixed;
+
+          }
+        }
+      }
+    }
+
+    &.one {
+      // background: url("../images/mbgt-logo.jpeg") no-repeat center 45%;
+      background: url("../images/mbgs2.jpeg") no-repeat center 45%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+
+    &.two {
+      background: url("../images/mbgs2.jpeg") no-repeat center 45%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+
     @include breakpoint(xxs) {
       background-size: cover;
     }
   }
+
   .col-md-8 {
     padding-left: 0;
   }
+
   h1 {
     margin-left: -20px;
+
     &.hero-title {
       color: $white;
       text-align: left;
       font-size: 70px;
       padding-bottom: 10px;
+
       span {
         color: $yellow;
       }
     }
   }
+
   h4 {
     margin-left: -20px;
+
     &.hero-subtitle {
       text-align: left;
       color: $white;
@@ -40,13 +78,16 @@ section {
       font-weight: 100;
     }
   }
+
   p {
     color: $white;
     font-size: 18px;
     line-height: 28px;
   }
+
   .social-icons {
     padding-top: 20px;
+
     a {
       margin: 10px;
       font-size: 16px;
@@ -54,6 +95,7 @@ section {
       padding: 10px 20px;
       border-radius: 10px;
       background-color: $shadow;
+
       &:hover {
         background-color: $green;
         cursor: pointer;
