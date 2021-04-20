@@ -51,6 +51,9 @@ section {
 
   .col-md-8 {
     padding-left: 0;
+    @include breakpoint(xxs) {
+      padding: 30px;
+    }
   }
 
   h1 {

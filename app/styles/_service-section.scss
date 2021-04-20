@@ -4,12 +4,21 @@ section {
     padding: 20px;
     display: flex;
     background-color: #eee;
+    &.service-two-container {
+      background-color: #fff;
+      p {
+        color: black;
+        font-size: 11px;
+        text-align: right;
+        font-style: italic;
+      }
+    }
     .row {
-      display: flex;
-      align-items: center;
+      margin-top: 20px;
       padding: 30px;
 
-      .col-md-5 {
+      .col-md-6 {
+
         img {
           width: 100%;
           border-radius: 10px;
@@ -21,6 +30,10 @@ section {
           padding: 10px;
           background-color: #fefefe;
 
+          @include breakpoint(xxs) {
+            margin-bottom: 20px;
+          }
+
           .service-copy-header {
             padding: 10px 0;
             font-size: 24px;
@@ -29,13 +42,24 @@ section {
 
           .service-copy-body {
             padding: 5px 0;
+
+          }
+
+          img {
+            &.wagr-logo {
+              margin: 10px;
+              width: 200px;
+              border: 1px solid red;
+            }
           }
         }
-      }
 
-      .col-md-6 {
         .carousel {
           height: 50px;
+
+          @include breakpoint(xxs) {
+            // margin: 10px;
+          }
 
           .item {
             font-style: italic;
