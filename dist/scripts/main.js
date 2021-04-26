@@ -1,0 +1,1 @@
+"use strict";!function(t){t(document).ready(function(){t(".navbar").hide(),t(function(){t(window).scroll(function(){t(this).scrollTop()>100?t(".navbar").fadeIn():t(".navbar").fadeOut()})})})}(jQuery),$('a[href^="#"]').on("click",function(t){var n=$(this.getAttribute("href"));n.length&&(t.preventDefault(),$("html, body").stop().animate({scrollTop:n.offset().top},2e3))});
