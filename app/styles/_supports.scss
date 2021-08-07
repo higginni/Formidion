@@ -1,0 +1,27 @@
+.supports {
+    height: 100vh;
+
+    .container {
+        .row {
+            .col-md-4 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    &.world {
+                        height: 300px;
+                    }
+
+                    &.small-logo {
+                        height: 50px;
+                        margin-left: 20px;
+                    }
+                }
+
+                h5 {}
+            }
+        }
+    }
+}
