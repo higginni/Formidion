@@ -1,34 +1,47 @@
 section.contact {
-  // text-align: center;
+  background-image: url("../images/cargo_net.jpeg");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
   padding: 50px;
-  h2 {
-    font-size: 29px;
-    padding-bottom: 40px;
-    line-height: 30px;
-    text-align: center;
-  }
-  h4 {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  p {
-    font-size: 14px;
-    text-align: center;
-    color: $grey-font;
-    line-height: 28px;
-  }
-  .social-icons {
-    text-align: center;
-    i {
+  .row {
+    .col-md-6 {
+    }
+
+    h2 {
+      font-size: 29px;
+      padding-bottom: 40px;
+      line-height: 30px;
       text-align: center;
-      margin: 5px;
-      font-size: 16px;
-      color: $white;
-      padding: 10px;
-      border-radius: 50px;
-      background-color: rgba(0, 0, 0, 0.2);
-      &:hover {
-        background-color: $green;
+    }
+
+    h4 {
+      font-size: 23px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      color: $grey-font;
+      line-height: 28px;
+    }
+
+    .social-icons {
+      text-align: center;
+
+      i {
+        text-align: center;
+        margin: 5px;
+        font-size: 16px;
+        color: $white;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          background-color: $green;
+        }
       }
     }
   }
@@ -37,14 +50,23 @@ section.contact {
   input[type="text"],
   select,
   textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+
+    /* Allow the user to vertically resize the textarea (not horizontally) */
     label {
       text-align: left;
     }
