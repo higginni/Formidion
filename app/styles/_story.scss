@@ -1,12 +1,13 @@
 section {
   &.story {
-    background-image: url("../images/plane-img.jpg");
+    background-image: url("../images/Embraer.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 110%;
     height: 100vh;
     display: flex;
+    background-attachment: fixed;
     justify-content: space-around;
     align-items: center;
     box-shadow: inset 0 0 0 999em $shadow;
