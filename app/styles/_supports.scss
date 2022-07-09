@@ -1,6 +1,8 @@
 .supports {
     height: 80vh;
-
+    @include breakpoint(xxs) {
+        height: 100%;
+    }
     .container {
         .row {
             .col-md-4 {
@@ -20,7 +22,7 @@
                     }
                 }
 
-                h5 {}
+                // h5 {}
             }
         }
     }
