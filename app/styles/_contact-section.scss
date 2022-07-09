@@ -5,9 +5,14 @@ section.contact {
   background-position: right;
   padding: 50px;
   margin: 10px 0 0 0;
+
+  @include breakpoint(xxs) {
+    margin-top: 350px;
+    background-image: none;
+  }
+
   .row {
-    .col-md-6 {
-    }
+    // .col-md-6 {}
 
     h2 {
       font-size: 29px;
