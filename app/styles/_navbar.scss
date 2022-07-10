@@ -3,8 +3,10 @@
   height: 100px;
   background-color: #fff;
   border-bottom: 10px solid $blue;
+
   a {
     cursor: pointer;
+
     &.navbar-brand {
       img {
         width: 150px;
@@ -12,8 +14,10 @@
       }
     }
   }
+
   ul {
     .social-icons {
+
       // padding-top: 20px;
       a {
         margin: 5px 10px;
@@ -22,6 +26,7 @@
         padding: 10px 20px;
         border-radius: 10px;
         background-color: $green;
+
         &:hover {
           border: 1px solid $green;
           color: #777;
@@ -30,5 +35,12 @@
         }
       }
     }
+  }
+}
+
+
+.nav {
+  .navbar-nav {
+    background-color: $white;
   }
 }
