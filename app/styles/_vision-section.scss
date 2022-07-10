@@ -10,12 +10,15 @@
     @include breakpoint(md) {
         background-image: none;
     }
+
     @include breakpoint(sm) {
         background-image: none;
     }
+
     @include breakpoint(xs) {
         background-image: none;
     }
+
     @include breakpoint(xxs) {
         background-image: none;
     }
@@ -44,5 +47,4 @@
         font-size: 18px;
         padding: 10px;
     }
-}
 }
